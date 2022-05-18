@@ -18,7 +18,13 @@ function App() {
           </div>
         </header>
         <footer>
-          <p className={styles.time}>time remaining</p>
+          <div className="time-remaining">
+            <p className={styles.time}>time remaining</p>
+          </div>
+          <p className={styles.minTime}>51</p>
+          <p className={styles.minutes}>minutes</p>
+          <p className={styles.secTime}>39</p>
+          <p className={styles.seconds}>seconds</p>
         </footer>
       </div>
     </div>

@@ -4,4 +4,5 @@ body {
     rgba(27, 45, 39, 0.8) 0%,
     rgba(34, 91, 71, 0.6) 100%
   );
+  overflow: hidden;
 }

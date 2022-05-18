@@ -4,11 +4,17 @@ import styles from "./Form.css";
 const Form = () => {
   return (
     <form>
-      <input type="text" className="full-name" placeholder="FULL NAME" />
+      <input
+        type="text"
+        className="full-name"
+        id="input-name"
+        placeholder="FULL NAME"
+      />
       <br />
       <input
         type="text"
         className="email-address"
+        id="input-email"
         placeholder="EMAIL ADDRESS"
       />
       <br />
