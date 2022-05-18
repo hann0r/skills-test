@@ -15,29 +15,23 @@
   width: 190px;
   height: 64px;
   padding-right: 56px;
-  align-items: right;
 }
 
 .full-name {
   border-radius: 10px;
   border: 0px;
-  font-family: "Arial";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
   margin-left: 100px;
   margin-bottom: 15px;
-
   width: 284px;
   height: 64px;
-  align-items: right;
 }
+
 .email-address {
   border-radius: 10px;
   border: 0px;
-  font-family: "Arial";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
@@ -46,14 +40,18 @@
   margin-top: 8px;
   width: 284px;
   height: 64px;
-  align-items: right;
 }
 
 .form {
   align-items: right;
   margin-top: 80px;
+  font-family: "Arial";
+  font-style: normal;
+  align-items: right;
 }
-
+.input {
+  padding: 10px;
+}
 #input-name::placeholder {
   color: #1b2d27;
 }

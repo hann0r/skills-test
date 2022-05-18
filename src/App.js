@@ -21,10 +21,12 @@ function App() {
           <div className={styles.timeRemaining}>
             <p className={styles.time}>time remaining</p>
           </div>
-          <p className={styles.minTime}>51</p>
-          <p className={styles.minutes}>minutes</p>
-          <p className={styles.secTime}>39</p>
-          <p className={styles.seconds}>seconds</p>
+          <div className={styles.timeValues}>
+            <p className={styles.minTime}>51</p>
+            <p className={styles.minutes}>minutes</p>
+            <p className={styles.secTime}>39</p>
+            <p className={styles.seconds}>seconds</p>
+          </div>
         </footer>
       </div>
     </div>
