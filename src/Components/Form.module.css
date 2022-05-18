@@ -12,12 +12,12 @@
   border: 0px;
   margin-left: 196px;
   margin-top: 8px;
-  width: 190px;
+  width: 230px;
   height: 64px;
   padding-right: 56px;
 }
 
-.full-name {
+.fullName {
   border-radius: 10px;
   border: 0px;
   font-weight: 700;
@@ -29,7 +29,7 @@
   height: 64px;
 }
 
-.email-address {
+.emailAddress {
   border-radius: 10px;
   border: 0px;
   font-weight: 700;
@@ -49,15 +49,12 @@
   font-style: normal;
   align-items: right;
 }
-.input {
-  padding: 10px;
+input {
+  padding: 0 20px;
 }
 #input-name::placeholder {
   color: #1b2d27;
 }
 #input-email::placeholder {
   color: #1b2d27;
-}
-input[type="text"]::placeholder {
-  padding-left: 20px;
 }

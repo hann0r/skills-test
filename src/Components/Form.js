@@ -1,25 +1,25 @@
 import React from "react";
-import styles from "./Form.css";
+import styles from "./Form.module.css";
 
 const Form = () => {
   return (
-    <div className="form">
+    <div className={styles.form}>
       <form>
         <input
           type="text"
-          className="full-name"
+          className={styles.fullName}
           id="input-name"
           placeholder="FULL NAME"
         />
         <br />
         <input
-          type="text"
-          className="email-address"
+          type="email"
+          className={styles.emailAddress}
           id="input-email"
           placeholder="EMAIL ADDRESS"
         />
         <br />
-        <button className="btn" type="submit">
+        <button className={styles.btn} type="submit">
           Next
         </button>
       </form>

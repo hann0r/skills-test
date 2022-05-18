@@ -17,7 +17,7 @@ function App() {
             <Form />
           </div>
         </header>
-        <footer>
+        <footer className={styles.footer}>
           <div className={styles.timeRemaining}>
             <p className={styles.time}>time remaining</p>
           </div>
