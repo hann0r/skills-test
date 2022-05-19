@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import styles from "./Form.module.css";
 
 const Form = () => {
-  const [name, setName] = useState();
+  const [name, setName] = useState("");
 
-  const [email, setEmail] = useState();
+  const [email, setEmail] = useState("");
 
   function handleClick(e) {
     e.preventDefault();
