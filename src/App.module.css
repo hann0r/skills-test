@@ -96,8 +96,16 @@
 }
 
 @media (min-height: 740px) {
-  .time {
+  .footer {
     margin-top: 150px;
+  }
+}
+@media (min-height: 844px) {
+  .footer {
+    margin-top: 200px;
+  }
+  .main {
+    margin-top: 140px;
   }
 }
 @media (min-width: 762px) {
