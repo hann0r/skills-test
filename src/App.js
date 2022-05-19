@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./Component.module.css";
+import React, { useState } from "react";
+import styles from "./App.module.css";
 import Form from "./Components/Form";
 
 function App() {
@@ -13,19 +13,25 @@ function App() {
             UK residents only, aged 18+. <br></br>1 entry per person. No
             purchase necessary.
           </h2>
-          <div className={styles.form}>
-            <Form />
-          </div>
         </header>
+        <main className={styles.main}>
+          <Form />
+        </main>
         <footer className={styles.footer}>
           <div className={styles.timeRemaining}>
-            <p className={styles.time}>time remaining</p>
+            <p>time remaining</p>
           </div>
           <div className={styles.timeValues}>
             <p className={styles.minTime}>51</p>
-            <p className={styles.minutes}>minutes</p>
+          </div>
+          <div className={styles.timeLength}>
+            <p>minutes</p>
+          </div>
+          <div className={styles.timeValues}>
             <p className={styles.secTime}>39</p>
-            <p className={styles.seconds}>seconds</p>
+          </div>
+          <div className={styles.timeLength}>
+            <p>seconds</p>
           </div>
         </footer>
       </div>
