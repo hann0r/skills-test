@@ -6,7 +6,10 @@ const Form = () => {
 
   const [email, setEmail] = useState();
 
-  const handleClick = () => {};
+  function handleClick(e) {
+    e.preventDefault();
+    console.log({ name, email });
+  }
 
   return (
     <div className={styles.form}>
@@ -31,11 +34,7 @@ const Form = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
         <br />
-        <button
-          className={styles.btn}
-          type="submit"
-          onClick={(e) => e.target.value}
-        >
+        <button className={styles.btn} type="submit" onClick={handleClick}>
           Next
         </button>
       </form>
