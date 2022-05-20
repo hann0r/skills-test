@@ -14,7 +14,7 @@
   margin-top: 8px;
   width: 230px;
   height: 64px;
-  padding-right: 120px;
+  padding-right: 128px;
 }
 
 .fullName {
@@ -39,4 +39,12 @@ input {
 }
 ::-webkit-input-placeholder {
   color: #1b2d27;
+}
+@media (max-width: 762px) {
+  .btn {
+    margin-left: 226px;
+  }
+  input {
+    margin-left: 120px;
+  }
 }
