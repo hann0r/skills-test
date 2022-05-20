@@ -28,20 +28,24 @@
 input {
   padding: 0 18px;
   border-radius: 10px;
-  line-height: 100%;
   margin-left: 100px;
   border: 0px;
-  font-weight: 700;
-  font-size: 14px;
   width: 284px;
   height: 64px;
 }
-::-webkit-input-placeholder {
+
+input::-webkit-input-placeholder {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 100%;
   color: #1b2d27;
 }
 @media (max-width: 762px) {
   .btn {
-    margin-left: 226px;
+    margin-left: 210px;
   }
   input {
     margin-left: 120px;
@@ -49,6 +53,6 @@ input {
 }
 @media (min-height: 915px) {
   .btn {
-    margin-left: 256px !important;
+    margin-left: 246px !important;
   }
 }
