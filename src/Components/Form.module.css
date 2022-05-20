@@ -10,7 +10,7 @@
   letter-spacing: 5px;
   text-transform: uppercase;
   border: 0px;
-  margin-left: 196px;
+  margin-left: 190px;
   margin-top: 8px;
   width: 230px;
   height: 64px;
@@ -18,16 +18,15 @@
 }
 
 .fullName {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .emailAddress {
-  margin-bottom: 10px;
-  margin-top: 8px;
+  margin-bottom: 2px;
 }
 
 input {
-  padding: 0 20px;
+  padding: 0 18px;
   border-radius: 10px;
   line-height: 100%;
   margin-left: 100px;
@@ -46,5 +45,10 @@ input {
   }
   input {
     margin-left: 120px;
+  }
+}
+@media (min-height: 915px) {
+  .btn {
+    margin-left: 256px !important;
   }
 }
